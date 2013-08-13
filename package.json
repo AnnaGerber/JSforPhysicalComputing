@@ -1,0 +1,12 @@
+{
+  "name": "j5-sensor-dashboard",
+  "description": "j5-sensor-dashboard",
+  "author": "Anna Gerber",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "dashing-js": "~0.0.10",
+    "johnny-five": "~0.7.2"
+  },
+  "engine": "node >= 0.8"
+}

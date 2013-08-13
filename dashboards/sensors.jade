@@ -1,0 +1,24 @@
+extends layout
+
+block title
+  | Sensor Dashboard
+
+block content
+  div.gridster
+    ul
+      li(data-row='1', data-col='1', data-sizex='2', data-sizey='1')
+        div(data-id='welcome', data-view='Text', data-title='CampJS', data-text='Sensor Stream', data-moreinfo='Built using Johnny-Five and dashing-js', style='background-color:#96bf48;')
+      li(data-row='1', data-col='3', data-sizex='1', data-sizey='1')
+        div(data-id='temp', data-view='Number', data-title='Temperature', style='background-color:#ff9618', data-moreinfo='Temperature in Celsius')
+      li(data-row='1', data-col='4', data-sizex='1', data-sizey='1')
+        div(data-id='tilt', data-view='Text', data-title='Tilt', data-moreinfo='Tilt Sensor Reading', style='background-color:#47bbb3;')
+      li(data-row='2', data-col='3', data-sizex='2', data-sizey='1')
+        div(data-view='Clock')
+        i.icon-time.icon-background
+      li(data-row='2', data-col='1', data-sizex='1', data-sizey='1')
+        div(data-id='light', data-view='Meter', data-title='Light', data-min='0', data-max='100', style='background-color:#12b0c5', data-moreinfo='Light Intensity in %',data-fgcolor='#eeeeee')
+      li(data-row='2', data-col='2', data-sizex='1', data-sizey='1')
+        div(data-id='sound', data-view='Meter', data-title='Sound', data-min='0', data-max='100', data-moreinfo='Sound Intensity')
+
+  center
+    div(style='font-size: 12px') Live data from Arduino
