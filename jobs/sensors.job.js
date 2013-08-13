@@ -30,9 +30,9 @@ five.Board().on("ready", function(){
     last_temp = cel;
   });
   photoresistor.on("read", function( err, value ) {
-    // raw reading is between 0 - 1024 where 1024 = darkness
+    // raw reading is between 0 - 1023 where 1023 = darkness
     // invert and turn into a percentage for display
-    var lpercent = ( ((1024-value) /1024.0) * 100);
+    var lpercent = ( ((1023-value) /1023.0) * 100);
     send_event('light',{value:lpercent.toFixed(1)});
   });
 
