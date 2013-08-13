@@ -29,7 +29,7 @@ Using the Arduino IDE, load the StandardFirmata sketch onto the Arduino:
  * Select the device under *Tools > Serial Port* (on a Mac this will usually be /dev/tty.usbmodem\* or /dev/tty.usbserial\*)
  * Open the sketch via the menu: *File > Examples > Firmata > StandardFirmata*
  * Hit the Upload (right facing arrow) button at the top of the sketch to send it to the board. The status message at the bottom of the sketch will indicate when it is done
-* Make sure you have shut down the Arduino IDE and unplugged the Arduino before progressing to the next step
+ * Make sure you have shut down the Arduino IDE and unplugged the Arduino before progressing to the next step
 
 Unplug the Arduino from the computer and hook up the Arduino and sensors like so:
 
