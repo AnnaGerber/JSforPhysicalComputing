@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<title>Deck Title</title>
+
+		<meta name="description" content="JS for Physical Computing talk at CampJS II">
+		<meta name="author" content="Anna Gerber">
+
+		<style>
+			body {
+				background-color: white !important;
+				background-image: none !important;
+			}
+			.componentContainer {
+				position: absolute;
+				line-height: normal;
+			}
+
+			.transformContainer {
+				-webkit-transform-origin: 0 0;
+				-moz-transform-origin: 0 0;
+				transform-origin: 0 0;
+			}
+
+			.bg {
+				width: 100%;
+				height: 100%;
+			}
+			.fallback-message {
+				display:none;
+			}
+		</style>
+		<script type="text/javascript" src="./assets/impress.js"></script>
+
+		<body class="impress-supported impress-enabled" style="height: 100%; overflow: hidden;">
+
+			<div class="fallback-message">
+				<p>
+					Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.
+				</p>
+				<p>
+					For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.
+				</p>
+			</div>
+			<div class="bg">
+				<div id="impress" style="position: absolute; -webkit-transform-origin: 0% 0%; transition: all 1000ms ease-in-out 500ms; -webkit-transition: all 1000ms ease-in-out 500ms; -webkit-transform-style: preserve-3d; top: 50%; left: 50%; -webkit-transform: perspective(4355.38752362949px) scale(0.22960069444444445);">
+					<div style="position: absolute; -webkit-transform-origin: 0% 0%; transition: all 1000ms ease-in-out 0ms; -webkit-transition: all 1000ms ease-in-out 0ms; -webkit-transform-style: preserve-3d; -webkit-transform: rotateZ(0deg) rotateY(0deg) rotateX(0deg) translate3d(-4423.68px, -1966.08px, 0px);">
+
+						<div class="step future" data-x="1215.1466666666668" data-y="109.22666666666667" data-scale="3" id="step-1" style="position: absolute; -webkit-transform: translate(-50%, -50%) translate3d(1215.1466666666668px, 109.22666666666667px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); -webkit-transform-style: preserve-3d;">
+							<div class="defaultbg" style="width: 1024px; height: 768px">
+
+								<div class="componentContainer" style="top: 83px; left: 91px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 72px;" class="antialias">
+											JS for Physical Computing
+											<br>
+										</div>
+									</div>
+								</div>
+
+								<div class="componentContainer" style="top: 316px; left: 106px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 64px;" class="antialias">
+											Anna Gerber
+											<br>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="step future" data-x="4423.68" data-y="901.12" data-scale="1" id="step-2" style="position: absolute; -webkit-transform: translate(-50%, -50%) translate3d(4423.68px, 901.12px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); -webkit-transform-style: preserve-3d;">
+							<div class="defaultbg" style="width: 1024px; height: 768px">
+
+								<div class="componentContainer" style="top: 307px; left: 34px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 48px;" class="antialias">
+											Building interactive systems that sense
+											<br>
+											and act on (or respond to) the physical world
+											<br>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="step active present" data-x="4423.68" data-y="1966.08" data-scale="2" id="step-3" style="position: absolute; -webkit-transform: translate(-50%, -50%) translate3d(4423.68px, 1966.08px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); -webkit-transform-style: preserve-3d;">
+							<div class="defaultbg" style="width: 1024px; height: 768px">
+
+								<div class="componentContainer" style="top: 100px; left: 155px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 72px;" class="antialias">
+											Applications
+										</div>
+									</div>
+								</div>
+
+								<div class="componentContainer" style="top: 402px; left: 44px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 48px;" class="antialias">
+											Interactive Art
+										</div>
+									</div>
+								</div>
+
+								<div class="componentContainer" style="top: 539px; left: 75px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 48px;" class="antialias">
+											Scientific Devices
+										</div>
+									</div>
+								</div>
+
+								<div class="componentContainer" style="top: 289px; left: 143px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 48px;" class="antialias">
+											Industrial Automation
+											<br>
+										</div>
+									</div>
+								</div>
+
+								<div class="componentContainer" style="top: 666px; left: 196px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 48px;" class="antialias">
+											Home Automation
+										</div>
+									</div>
+								</div>
+								<div class="componentContainer" style="top: 700px; left: 626px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 48px;" class="antialias">
+											Wearables
+										</div>
+									</div>
+								</div>
+								<div class="componentContainer" style="top: 395px; left: 495px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 48px;" class="antialias">
+											Personal manufacturing
+											<br>
+											e.g. 3D printers, CNC
+											<br>
+										</div>
+									</div>
+								</div>
+
+								<div class="componentContainer" style="top: 237px; left: 616px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 48px;" class="antialias">
+											Internet of Things
+										</div>
+									</div>
+								</div>
+
+								<div class="componentContainer" style="top: 570px; left: 806px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 48px;" class="antialias">
+											Gaming
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="step future" data-x="477.8666666666667" data-y="2416.64" data-scale="3" id="step-4" style="position: absolute; -webkit-transform: translate(-50%, -50%) translate3d(477.8666666666667px, 2416.64px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); -webkit-transform-style: preserve-3d;">
+							<div class="defaultbg" style="width: 1024px; height: 768px">
+
+								<div class="componentContainer" style="top: 128px; left: 150px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 72px;" class="antialias">
+											Actuators
+											<br>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="step future" data-x="50" data-y="3700" data-scale="1" id="step-5" style="position: absolute; -webkit-transform: translate(-50%, -50%) translate3d(436.9066666666667px, 3809.28px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); -webkit-transform-style: preserve-3d;">
+							<div class="defaultbg" style="width: 1024px; height: 768px">
+
+								<div class="componentContainer" style="top: 147px; left: 20px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 72px;" class="antialias">
+											<span style="font-size: 48.18181610107422px;">Light</span>
+											<br>
+										</div>
+									</div>
+								</div>
+
+								<div class="componentContainer" style="top: 326px; left: 20px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="padding-bottom:2em"><img src="assets/images/led_bb.png"/><img src="assets/images/led_schem.png" style="padding-left:3em;width:350px"/>
+										</div>
+										<div style="font-size: 48px;" class="antialias">
+											e.g. LED - Light Emitting Diode
+										</div>
+
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="step future" data-x="1050" data-y="3700" data-scale="1" id="step-6" style="position: absolute; -webkit-transform: translate(-50%, -50%) translate3d(1228.8px, 3809.28px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); -webkit-transform-style: preserve-3d;">
+							<div class="defaultbg" style="width: 1024px; height: 768px">
+
+								<div class="componentContainer" style="top: 177px; left: 165px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 48px;" class="antialias">
+											Sound
+											<br>
+										</div>
+									</div>
+								</div>
+
+								<div class="componentContainer" style="top: 329px; left: 175px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="padding-bottom:2em"><img style="width:200px" src="assets/images/buzzer_bb.png"/><img src="assets/images/buzzer_schem.png" style="padding-left:3em;width:200px"/>
+										</div>
+										<div style="font-size: 48px;" class="antialias">
+											e.g. Piezo Buzzer
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="step future" data-x="2100" data-y="3700" data-scale="1" id="step-7" style="position: absolute; -webkit-transform: translate(-50%, -50%) translate3d(2157.2266666666665px, 3795.6266666666666px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); -webkit-transform-style: preserve-3d;">
+							<div class="defaultbg" style="width: 1024px; height: 768px">
+
+								<div class="componentContainer" style="top: 200px; left: 148px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 48px;" class="antialias">
+											Motion
+										</div>
+									</div>
+								</div>
+
+								<div class="componentContainer" style="top: 334px; left: 158px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="padding-bottom:2em"><img style="width:200px" src="assets/images/servopart_bb.png"/><img src="assets/images/servopart_schem.png" style="padding-left:3em;width:200px"/>
+										</div>
+										<div style="font-size: 48px;" class="antialias">
+											e.g. servo
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="step future" data-x="3150" data-y="3700" data-scale="1" id="step-8" style="position: absolute; -webkit-transform: translate(-50%, -50%) translate3d(3099.306666666667px, 3795.6266666666666px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); -webkit-transform-style: preserve-3d;">
+							<div class="defaultbg" style="width: 1024px; height: 768px">
+
+								<div class="componentContainer" style="top: 152px; left: 158px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 48px;" class="antialias">
+											Power
+											<br>
+										</div>
+									</div>
+								</div>
+
+								<div class="componentContainer" style="top: 298px; left: 171px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="padding-bottom:2em"><img style="width:200px" src="assets/images/relay_bb.png"/><img src="assets/images/relay_schem.png" style="padding-left:3em;width:200px"/>
+										</div>
+										<div style="font-size: 48px;" class="antialias">
+											e.g. relay
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="step future" data-x="5584.213333333333" data-y="95.57333333333334" data-scale="3" id="step-9" style="position: absolute; -webkit-transform: translate(-50%, -50%) translate3d(5584.213333333333px, 95.57333333333334px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); -webkit-transform-style: preserve-3d;">
+							<div class="defaultbg" style="width: 1024px; height: 768px">
+
+								<div class="componentContainer" style="top: 180px; left: 180px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 72px;" class="antialias">
+											Sensors
+										</div>
+										<div style="padding-top:2em"><img style="width:300px" src="assets/images/sensors.jpg"/>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="step future" data-x="6144" data-y="819.2" data-scale="1" id="step-10" style="position: absolute; -webkit-transform: translate(-50%, -50%) translate3d(6144px, 819.2px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); -webkit-transform-style: preserve-3d;">
+							<div class="defaultbg" style="width: 1024px; height: 768px">
+
+								<div class="componentContainer" style="top: 264px; left: 15px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 48px;" class="antialias">
+											<ul>
+												<li>
+													<span style="line-height: normal;">Environmental conditions&nbsp;
+														<br>
+													</span><span style="line-height: normal; font-size: 48px;">(e.g. temperature, humidity, smoke, magnetic)</span>
+												</li>
+												<li>
+													<span style="line-height: normal; font-size: 48px;">Light (e.g. photo resistor)</span>
+												</li>
+												<li>
+													<span style="line-height: normal;">Sound (e.g. microphone)</span>
+												</li>
+												<li>
+													<span style="line-height: normal;">Motion (accelerometer, tilt, pressure)</span>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="step future" data-x="100" data-y="5160.96" data-scale="3" id="step-11" style="position: absolute; -webkit-transform: translate(-50%, -50%) translate3d(423.25333333333333px, 5160.96px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); -webkit-transform-style: preserve-3d;">
+							<div class="defaultbg" style="width: 1024px; height: 768px">
+
+								<div class="componentContainer" style="top: 324px; left: 94px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 48px;" class="antialias">
+											Microcontrollers e.g. Arduino
+											<br>
+										</div>
+									</div>
+								</div>
+
+								<div class="componentContainer" style="top: 120px; left: 78px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 72px;" class="antialias">
+											Platforms
+											<br>
+										</div>
+									</div>
+								</div>
+
+								<div class="componentContainer" style="top: 444px; left: 98px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 48px;" class="antialias">
+											Embedded Linux device e.g.
+											<br>
+											Raspberry Pi, Beaglebone
+											<br>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="step future" data-x="3367.9466666666667" data-y="5174.613333333334" data-scale="3" id="step-12" style="position: absolute; -webkit-transform: translate(-50%, -50%) translate3d(3467.9466666666667px, 5174.613333333334px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); -webkit-transform-style: preserve-3d;">
+							<div class="defaultbg" style="width: 1024px; height: 768px">
+
+								<div class="componentContainer" style="top: 561px; left: 116px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 36px;" class="antialias">
+											<a href="http://firmata.org/wiki/Main_Page" target="_blank">Firmata</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="componentContainer" style="top: 102px; left: 73px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 72px;" class="antialias">
+											Communication
+										</div>
+									</div>
+								</div>
+
+								<div class="componentContainer" style="top: 310px; left: 86px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 48px;" class="antialias">
+											Direct IO (i.e. via pins)
+										</div>
+									</div>
+								</div>
+
+								<div class="componentContainer" style="top: 424px; left: 89px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 48px;" class="antialias">
+											Protocols
+										</div>
+									</div>
+								</div>
+
+								<div class="componentContainer" style="top: 650px; left: 267px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 36px;" class="antialias">
+											<a target="_blank" href="http://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus">SPI</a>
+											<br>
+											(Serial Peripheral Interface)
+											<br>
+										</div>
+									</div>
+								</div>
+
+								<div class="componentContainer" style="top: 542px; left: 444px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 36px;" class="antialias">
+											<a target="_blank" href="http://en.wikipedia.org/wiki/I%C2%B2C">i2c</a>
+											<br>
+											(Inter-Integrated Circuit)
+											<br>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="step future" data-x="6649.173333333333" data-y="4833.28" data-scale="3" id="step-13" style="position: absolute; -webkit-transform: translate(-50%, -50%) translate3d(6649.173333333333px, 4833.28px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); -webkit-transform-style: preserve-3d;">
+							<div class="defaultbg" style="width: 1024px; height: 768px">
+
+								<div class="componentContainer" style="top: 144px; left: 56px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 72px;" class="antialias">
+											Talking to hardware using JS
+											<br>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="step future" data-x="6444.746666666667" data-y="6150.386666666666" data-scale="1" id="step-14" style="position: absolute; -webkit-transform: translate(-50%, -50%) translate3d(6744.746666666667px, 6089.386666666666px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); -webkit-transform-style: preserve-3d;">
+							<div class="defaultbg" style="width: 1024px; height: 768px">
+
+								<div class="componentContainer" style="top: 241px; left: 105px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 48px;" class="antialias">
+											<a href="https://npmjs.org/package/johnny-five" target="_blank">Johnny-Five</a>
+										</div>
+										<div style="padding-top:6em"><img style="width:300px" src="assets/images/j5.png"/>
+										</div>
+									</div>
+								</div>
+
+								<div class="componentContainer" style="top: 330px; left: 110px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 36px;" class="antialias">
+											Arduino Communication via Firmata&nbsp;
+											<br>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="step future" data-x="7727.786666666667" data-y="6089.386666666666" data-scale="1" id="step-15" style="position: absolute; -webkit-transform: translate(-50%, -50%) translate3d(7727.786666666667px, 6089.386666666666px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); -webkit-transform-style: preserve-3d;">
+							<div class="defaultbg" style="width: 1024px; height: 768px">
+
+								<div class="componentContainer" style="top: 274px; left: 128px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 48px;" class="antialias">
+											<a href="https://npmjs.org/package/pi-gpio">pi-gpio</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="componentContainer" style="top: 358px; left: 132px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 36px;" class="antialias">
+											General purpose IO for Raspberry Pi
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="step future" data-x="8850" data-y="6103.04" data-scale="1" id="step-16" style="position: absolute; -webkit-transform: translate(-50%, -50%) translate3d(8765.44px, 6103.04px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); -webkit-transform-style: preserve-3d;">
+							<div class="defaultbg" style="width: 1024px; height: 768px">
+
+								<div class="componentContainer" style="top: 300px; left: 78px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 48px;" class="antialias">
+											<a href="https://github.com/korevec/node-i2c" target="_blank">node-i2c</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="componentContainer" style="top: 378px; left: 81px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 36px;" class="antialias">
+											i2c for Raspberry &nbsp;Pi, Beaglebone
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="step future" data-x="10050" data-y="6089.386666666666" data-scale="1" id="step-17" style="position: absolute; -webkit-transform: translate(-50%, -50%) translate3d(9748.48px, 6089.386666666666px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); -webkit-transform-style: preserve-3d;">
+							<div class="defaultbg" style="width: 1024px; height: 768px">
+
+								<div class="componentContainer" style="top: 256px; left: 119px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 48px;" class="antialias">
+											<a href="http://ninjablocks.com/" target="_blank">Ninja Blocks</a>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="step future" data-x="6717.44" data-y="6853.973333333333" data-scale="1" id="step-18" style="position: absolute; -webkit-transform: translate(-50%, -50%) translate3d(6717.44px, 6853.973333333333px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); -webkit-transform-style: preserve-3d;">
+							<div class="defaultbg" style="width: 1024px; height: 768px">
+
+								<div class="componentContainer" style="top: 83px; left: 49px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 72px;" class="antialias">
+											Servo Control
+											<br>
+											with Johnny Five
+											<br>
+										</div>
+									</div>
+								</div>
+								<div class="componentContainer" style="top: 306px; left: 80px;">
+									<img src="assets/images/servo_schem.png" width="50%">
+								</div>
+								<div class="componentContainer" style="top: 306px; left: 638px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 24px;" class="antialias">
+
+											<p class="p1">
+												var five = require("johnny-five"),<br/>
+											
+												&nbsp; &nbsp; board, servo;<br/>
+											
+												board = new five.Board();<br/>
+											
+												board.on("ready", function() {<br/>
+											
+												&nbsp; mouthServo = five.Servo({<br/>
+											
+												&nbsp; &nbsp; pin: 10,<br/>
+											
+												&nbsp; &nbsp; range: [ 0, 120 ]<br/>
+											
+												&nbsp; });<br/>
+											
+												&nbsp; mouthServo.sweep();<br/>
+											
+												});
+											</p>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="step future" data-x="7000" data-y="8500" data-scale="3" id="step-19" style="position: absolute; -webkit-transform: translate(-50%, -50%) translate3d(7000px, 8500px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); -webkit-transform-style: preserve-3d;">
+							<div class="defaultbg" style="width: 1024px; height: 768px">
+								<img src="assets/images/workshop.jpg"/>
+							</div>
+						</div>
+
+						<div class="step future" data-x="354.9866666666667" data-y="8000" data-scale="3" id="step-20" style="position: absolute; -webkit-transform: translate(-50%, -50%) translate3d(354.9866666666667px, 8000px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); -webkit-transform-style: preserve-3d;">
+							<div class="defaultbg" style="width: 1024px; height: 768px">
+								<div class="componentContainer" style="top: 256px; left: 119px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+									<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+									-moz-transform: scale(1, 1);
+									transform: scale(1, 1)">
+										<div style="font-size: 48px;" class="antialias">
+											<a href="http://github.com/AnnaGerber/JSforPhysicalComputing/" target="_blank">Example: Sensor Dashboard</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div id="overview" class="step active future" data-x="5051.733333333334" data-y="3679.5733333333333" data-scale="9" style="position: absolute; -webkit-transform: translate(-50%, -50%) translate3d(5051.733333333334px, 3679.5733333333333px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(9); -webkit-transform-style: preserve-3d;"></div>
+				</div>
+			</div>
+			<div class="hint">
+				<p>
+					Use a spacebar or arrow keys to navigate
+				</p>
+			</div>
+			<script>
+				if ("ontouchstart" in document.documentElement) {
+					document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+				}
+			</script>
+
+			</div>
+			<script>
+				if (!window.presStarted) {
+					startPres(document, window);
+					pres().init();
+				}
+			</script>
+
+		</body>
+</html>
